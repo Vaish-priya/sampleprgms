@@ -1,0 +1,17 @@
+<p id="miracle" style="font-weight:bold">TVSERIES-LIST WORKS!
+
+</p>
+<h3 class="tvseries">
+
+    TV-SERIES LIST
+
+</h3>
+
+<ul class="items">
+
+    <li (click)="onSelect(tvseriesx)" *ngFor="let tvseriesx of tvseries">
+
+<span class = "badge">{{aired}}</span>{{tvseriesx.name}}
+
+    </li>
+</ul>
